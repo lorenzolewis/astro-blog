@@ -23,6 +23,7 @@ content:
   - name: about
     label: About page
     type: file
+    icon: house
     path: src/pages/about.md
     fields:
       - { name: layout, type: string, hidden: true, default: "../layouts/AboutLayout.astro" }
